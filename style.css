@@ -1,0 +1,44 @@
+.navbar {
+background-color: rgba(255, 255, 255, 0.568);
+}
+.navbar-nav-scroll .nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #C73333; 
+    transition: width 0.3s ease;
+}
+
+.icon {
+    height: 4em;
+}
+.banner{
+    background: url("images/landing.jpg");
+    height: 90vh;
+    margin-top: 0;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: overlay;
+    background-color: #0000003b;    
+  }
+  .nav-link {
+    color: #C73333;
+  }
+  h1.display-1{
+    font-weight: 700;
+    padding: 1em;
+    color: #aa2222;
+    background-color: rgba(255, 255, 255, 0.521);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.233);
+
+    
+  }
