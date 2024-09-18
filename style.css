@@ -138,6 +138,7 @@ margin: 0em;
   }
   p.description{
     color: black;
+    align-items: center;
   }
   p{
     color: white;
