@@ -142,6 +142,9 @@ margin: 0em;
   p{
     color: white;
   }
+  p.links{
+    color: #ffbdc1;
+  }
   h6{
     color: white;
     margin-top: 3em;
@@ -259,4 +262,8 @@ font-weight: bold;
 font-size: 1.25em;
 margin-top: 0.25em;
 text-align: left;
+}
+.bottom {
+  margin-top: 3em;
+  height: 6em;
 }
