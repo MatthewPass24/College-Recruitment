@@ -161,9 +161,9 @@ margin: 0em;
   #text{
     font-family: 'Poppins';
     width: 100%;
-    min-height: 100vh;
     display: grid;
     place-items: center;
+    margin-top: 5em;
 
   }
   .roww{
@@ -257,3 +257,27 @@ h3{
 .container{
   margin-top: 0em;
 }
+.more-content {
+  background-color: white;
+  height: 80vh;
+  width: 100vw;
+  margin-top: 8em;
+}
+.container2{
+  align-items: center;
+  margin-top: 10em;
+}
+.section-title1{
+  margin-top: 10em;
+}
+.news{
+  align-items: center;
+  margin-top: 10em;
+}
+button.learning{
+  background-color: blue;
+}
+
+
+
+/* CSS */
