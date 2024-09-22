@@ -139,9 +139,6 @@ margin: 0em;
   .footer {
     background-color: #C41230
   }
-  .top{
-    background-color: #EF3A47
-  }
   p.description{
     color: black;
     align-items: center;
@@ -234,6 +231,7 @@ h2{
   color: white;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  font-size: 3em;
 }
 li{
   color: white;
@@ -259,13 +257,27 @@ h3{
 }
 .more-content {
   background-color: white;
-  height: 80vh;
-  width: 100vw;
   margin-top: 8em;
+  justify-content: center;
+  text-align: center;
+}
+.frame{
+  margin-top: 5em;
+  margin-bottom: 5em;
+  justify-content: center;
+  text-align: center;
+}
+h3#tour{
+  margin-top: 1em;
+}
+iframe{
+  height: 50vh;
+  justify-content: center;
 }
 .container2{
   align-items: center;
   margin-top: 10em;
+  padding: 1.25em;
 }
 .section-title1{
   margin-top: 10em;
@@ -273,11 +285,17 @@ h3{
 .news{
   align-items: center;
   margin-top: 10em;
+  margin-bottom: 10em;
 }
 button.learning{
   background-color: blue;
 }
-
-
+.college-description1{
+  border: none;
+  color: black;
+}
+p.updates{
+  color: black;
+}
 
 /* CSS */
