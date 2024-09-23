@@ -290,7 +290,7 @@ text-align: left;
   padding: 13px 23px;
   position: relative;
   text-align: center;
-
+text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
   width: auto;
@@ -302,6 +302,7 @@ text-align: left;
 
 .button-23:active {
   background-color: #F7F7F7;
+  text-decoration: none;
 
 }
 

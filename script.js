@@ -5,6 +5,7 @@ $(function() {
     });
   });
 
+// Get the button element
 let backToTopBtn = document.getElementById("back-to-top-btn");
 
 // Show or hide the button based on scroll position
