@@ -135,10 +135,7 @@ margin: 0em;
   }
 
   .footer {
-    background-color: #C41230
-  }
-  .top{
-    background-color: #EF3A47
+    background-color: #C41230;
   }
   p.description{
     color: black;
@@ -395,7 +392,7 @@ h4{
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #C41230; /* Set a background color */
+  background-color: #EF3A47; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
@@ -407,6 +404,6 @@ h4{
 
 #myBtn:hover {
   background-color: #D6D6D6; /* Add a dark-grey background on hover */
-  border: 1px solid #450084;
-  color: #450084;
+  border: 1px solid #EF3A47;
+  color: #EF3A47;
 }
