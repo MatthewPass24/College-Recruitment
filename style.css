@@ -3,7 +3,7 @@
 body{
   background-color: rgb(236, 236, 236);
 }
-
+/*navbar goes here*/
 .navbar {
 background-color: rgba(255, 255, 255, 0.253);
 padding: 0em;
@@ -25,6 +25,7 @@ margin: 0em;
 .icon {
     height: 4em;
 }
+/*landing area*/
 .banner{
     background: url("images/landing.jpg");
     height: 90vh;
@@ -55,7 +56,7 @@ margin: 0em;
 
     
   }
-  
+  /*go down button*/
   *,
   :after,
   :before {
@@ -341,3 +342,16 @@ p.updates{
 
 
 /* CSS */
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 99;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+  color:  #f8c494;
+  border: #000000;
+  border-radius: 20px;
+}
+

@@ -59,11 +59,11 @@ margin: 0em;
     color: rgb(0, 0, 0);
   }
   
-  p.scholars{
+  h5.scholars{
     color: white;
-    margin-left: 5em;
-    margin-right: 5em;
-    font-size: 1.2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    font-size: 1.1em;
     padding: 1.5em;
     border: solid white 2px;
   }
@@ -190,7 +190,15 @@ margin: 0em;
     height: 30vh;
     margin: 3rem;
   }
-
+li.dropdown{
+  color: black;
+}
+.card__button {
+  text-decoration: none;
+  font-size: var(--small-font-size);
+  font-weight: 500;
+  color: var(--first-color);
+}
   .emoji{
     height: 8em;
     margin-top: 1em;
@@ -204,8 +212,8 @@ margin: 0em;
   .accordion{
     margin-top: 2em;
     text-align: left;
-    margin-right: 7em;
-    margin-left: 7em;
+    margin-right: 5em;
+    margin-left: 5em;
     margin-bottom: 5em;
   }
   

@@ -170,3 +170,129 @@ margin: 0em;
     background-color: white;
     padding: 3em;
   }
+  #text{
+    font-family: 'Poppins';
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 5em;
+
+  }
+  .roww{
+    width: 80%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    overflow-x: hidden;
+    padding: 5rem 0;
+  }
+  .roww .imgWrapper{
+    overflow: hidden;
+  }
+  .roww .imgWrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+  }
+  .row .imgWrapper:hover img{
+    transform: scale(1.25);
+  }
+  .row .contentWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+  }
+  .row .contentWrapper span.textWrapper{
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+.row .contentWrapper span.textWrapper span{
+  display: inline-block;
+  background: #C41230;
+  width: 70px;
+  height: 5px;
+}
+.row .contentWrapper h2{
+  font-size: 40px;
+  font-weight: 700;
+  color: #383f47;
+  padding-bottom: 20px;
+}
+.bottom {
+  margin-top: 3em;
+  height: 6em;
+}
+.bg-image {
+  background-image: url("images/spirit.jpg");
+  background-position: center center;
+  background-size: cover;
+  min-height: 25rem;
+  
+}
+.emoji{
+  height: 8em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 50%;
+}
+.info{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.college-description{
+  background-color: #C41230;
+}
+h2{
+  color: white;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 3em;
+}
+li{
+  color: white;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+h3{
+  font-size: 3.5em;
+  color: #EF3A47;
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 800;
+}
+.container1{
+  margin-top: 5em;
+  margin-bottom: 0em;
+}
+.footer {
+  background-color: #C41230
+}
+p.description{
+  color: black;
+  align-items: center;
+}
+p{
+  color: white;
+}
+p.links{
+  color: #ffbdc1;
+}
+h6{
+  color: white;
+  margin-top: 3em;
+  font-size: 1.3em;
+  font-family: 'Poppins';
+}
+h1{
+  text-align: center;
+  margin: 2em;
+}
